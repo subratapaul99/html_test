@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ria Designs - Discover exquisite Mehendi art, shop products, watch tutorials, and book appointments.">
+    <title>Ria_Designs - Mehendi Art</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Ria Designs</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#updates">Updates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Ria Designs</h1>
+        <p>Experience the art of intricate Mehendi designs crafted with love and precision.</p>
+        <button onclick="scrollToSection('#gallery')">Explore Designs</button>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Our Gallery</h2>
+        <div class="gallery-container">
+            <img src="degisn1.jpg" alt="Design 1">
+            <img src="degisn2.jpg" alt="Design 2">
+            <img src="degisn3.jpg" alt="Design 3">
+            <img src="degisn4.jpg" alt="Design 4">
+            <img src="degisn5.jpg" alt="Design 5">
+            <img src="degisn6.jpg" alt="Design 6">
+            <img src="degisn7.jpg" alt="Design 7">
+            <img src="degisn8.jpg" alt="Design 8">
+            <img src="degisn9.jpg" alt="Design 9">
+            <img src="degisn10.jpg" alt="Design 10">
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <h2>Shop Mehendi Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="product1.jpg" alt="Mehendi Cone">
+                <h3>Mehendi Cone</h3>
+                <p>₹50</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Henna Kit">
+                <h3>Henna Kit</h3>
+                <p>₹300</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos">
+        <h2>Cinematic Shorts</h2>
+        <div class="video-container">
+            <video width="1400" height="400" controls autoplay loop>
+                <source src="cute.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Our Blog</h2>
+        <div class="blog-container">
+            <div class="blog-post">
+                <h3>5 Tips for Stunning Bridal Mehendi</h3>
+                <p>Learn the secrets to creating intricate bridal Mehendi designs...</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>How to Care for Your Mehendi</h3>
+                <p>Ensure your Mehendi lasts longer with these simple tips...</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Background Music -->
+    <audio id="background-music" autoplay loop>
+        <source src="gana.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- Music Controls -->
+    <div class="music-controls">
+        <button id="play-music">Play Music</button>
+        <button id="pause-music">Pause Music</button>
+    </div>
+
+    <!-- Appointment Section -->
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form action="https://formsubmit.co/riyajnv2004@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formsubmit.co/riyajnv2004@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="https://formsubmit.co/riyajnv2004@gmail.com" method="POST">
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Ria Designs. All Rights Reserved.</p>
+        <p>Follow us on: 
+            <a href="https://www.instagram.com/ria_designs_0">Instagram</a> |  
+            <a href="http://www.youtube.com/@ria_designs">YouTube</a>
+        </p>
+    </footer>
+</body>
+</html>
